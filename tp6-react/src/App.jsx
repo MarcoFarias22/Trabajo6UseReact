@@ -4,7 +4,8 @@ import Footer from './components/Footer.jsx';
 import Card from './components/Card.jsx';
 import Contador from './components/Contador.jsx';
 import ContactForm from './components/ContactForm.jsx';
-import ProductList from './components/ProductList.jsx'; // <-- IMPORTAMOS ACÁ
+import ProductList from './components/ProductList.jsx';
+import TodoApp from './components/TodoApp.jsx'; // <-- LA ÚLTIMA IMPORTACIÓN
 
 function App() {
   return (
@@ -31,9 +32,12 @@ function App() {
         <ContactForm />
 
         <hr style={{ margin: '40px 0', border: '0', borderTop: '1px solid #444' }} />
-        
-        {/* RENDERIZAMOS LA LISTA DE PRODUCTOS ACÁ */}
         <ProductList />
+
+        <hr style={{ margin: '40px 0', border: '0', borderTop: '1px solid #444' }} />
+        
+        {/* RENDERIZAMOS LA APLICACIÓN DE TAREAS COMPLETA ACÁ */}
+        <TodoApp />
 
       </main>
       
