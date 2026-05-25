@@ -5,15 +5,16 @@ import Footer from './components/Footer.jsx';
 function App() {
   return (
     <div>
-      {/* Usamos el componente Header arriba de todo */}
+      {/* Tu Header arriba */}
       <Header />
       
-      <main style={{ padding: '20px', minHeight: '60vh' }}>
-        <h2>¡Proyecto inicializado con éxito! 🚀</h2>
-        <p>Acá abajo van a ir apareciendo las tarjetas y los desafíos del TP6.</p>
+      {/* El contenido del medio */}
+      <main style={{ padding: '20px', minHeight: '60vh', fontFamily: 'sans-serif' }}>
+        <h2>¡Estructura Base Lista! 🚀</h2>
+        <p>Si estás viendo esto, significa que acomodaste la carpeta a la perfección y ya completaste el Punto 1 del TP.</p>
       </main>
       
-      {/* Usamos el componente Footer al final */}
+      {/* Tu Footer abajo */}
       <Footer />
     </div>
   );
