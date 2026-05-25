@@ -3,7 +3,8 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Card from './components/Card.jsx';
 import Contador from './components/Contador.jsx';
-import ContactForm from './components/ContactForm.jsx'; // <-- 1. IMPORTAR ACÁ
+import ContactForm from './components/ContactForm.jsx';
+import ProductList from './components/ProductList.jsx'; // <-- IMPORTAMOS ACÁ
 
 function App() {
   return (
@@ -27,9 +28,12 @@ function App() {
         <Contador />
 
         <hr style={{ margin: '40px 0', border: '0', borderTop: '1px solid #444' }} />
-        
-        {/* 2. RENDERIZAMOS EL FORMULARIO DE CONTACTO ACÁ */}
         <ContactForm />
+
+        <hr style={{ margin: '40px 0', border: '0', borderTop: '1px solid #444' }} />
+        
+        {/* RENDERIZAMOS LA LISTA DE PRODUCTOS ACÁ */}
+        <ProductList />
 
       </main>
       
