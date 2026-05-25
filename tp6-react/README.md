@@ -1,16 +1,23 @@
-# React + Vite
+# TP Nº 6 - React.js: Componentes, Estado y Listas 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web interactiva desarrollada con **React.js** y **Vite** para la materia Prácticas Profesionalizantes II. Cuenta con una estructura modular de componentes reutilizables, manejo de estado local y renderizado dinámico.
 
-Currently, two official plugins are available:
+## Tecnologías Usadas
+* **React.js** (Componentes funcionales y Hooks)
+* **Vite** (Bundler ultra rápido)
+* **JavaScript (ES6+)**
+* **CSS3** (Estilos condicionales y responsive)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Componentes Implementados
+1. **Header & Footer:** Estructura de navegación y pie de página con año dinámico.
+2. **Card:** Componente reutilizable mediante `props` y `children` para mostrar productos.
+3. **Contador:** Manejo de estado con `useState`, deshabilitación lógica y cambio de color condicional.
+4. **ContactForm:** Formulario controlado con validación de campos vacíos y preview en tiempo real.
+5. **ProductList:** Array de productos renderizado con `.map()` y filtros combinados por categoría y stock.
+6. **TodoApp:** CRUD básico de tareas con contador de pendientes y estado completado (tachado).
 
-## React Compiler
+## Instalación y Ejecución Local
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/MarcoFarias22/Trabajo6UseReact
