@@ -20,6 +20,13 @@ Este proyecto es una aplicación web interactiva desarrollada con **React.js** y
 5. **ProductList:** Array de productos renderizado con `.map()` y filtros combinados por categoría y stock.
 6. **TodoApp:** CRUD básico de tareas con contador de pendientes y estado completado (tachado).
 
+## Imagenes de la app 
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+
 ## Instalación y Ejecución Local
 
 1. Clonar el repositorio:
