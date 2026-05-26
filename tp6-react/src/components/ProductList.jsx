@@ -36,7 +36,7 @@ const ProductList = () => {
       backgroundColor: '#222',
       color: '#fff'
     }}>
-      <h3 style={{ color: '#646cff' }}>Desafío 5: Lista de Productos Filtrable 🛒</h3>
+      <h3 style={{ color: '#646cff' }}> Lista de Productos Filtrable 🛒</h3>
       
       
       <div style={{ 
