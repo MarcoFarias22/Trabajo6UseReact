@@ -2,6 +2,10 @@
 
 Este proyecto es una aplicación web interactiva desarrollada con **React.js** y **Vite** para la materia Prácticas Profesionalizantes II. Cuenta con una estructura modular de componentes reutilizables, manejo de estado local y renderizado dinámico.
 
+## Commits Realizados
+![alt text](image.png)
+
+
 ## Tecnologías Usadas
 * **React.js** (Componentes funcionales y Hooks)
 * **Vite** (Bundler ultra rápido)
