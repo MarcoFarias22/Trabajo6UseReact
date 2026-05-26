@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Card from './Card.jsx'; // Reutilizamos tu componente Card
+import Card from './Card.jsx'; 
 
 const ProductList = () => {
-  // 1. Definimos el array de al menos 6 productos
+ 
   const productosIniciales = [
     { id: 1, nombre: "Placa de Video RTX", precio: 350000, categoria: "Electrónica", enStock: true, imagen: "https://picsum.photos/id/1/300/200" },
     { id: 2, nombre: "Monitor 24' 144Hz", precio: 180000, categoria: "Electrónica", enStock: false, imagen: "https://picsum.photos/id/3/300/200" },
@@ -12,15 +12,15 @@ const ProductList = () => {
     { id: 6, nombre: "Licuadora Pro", precio: 38000, categoria: "Hogar", enStock: true, imagen: "https://picsum.photos/id/42/300/200" }
   ];
 
-  // Estados para controlar los filtros
+  
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState('Todas');
   const [soloEnStock, setSoloEnStock] = useState(false);
 
-  // 2. Lógica de filtros combinados (.filter())
+  
   const productosFiltrados = productosIniciales.filter(producto => {
-    // Filtro por categoría
+    
     const pasaCategoria = categoriaSeleccionada === 'Todas' || producto.categoria === categoriaSeleccionada;
-    // Filtro por stock
+    
     const pasaStock = !soloEnStock || producto.enStock;
     
     return pasaCategoria && pasaStock;
@@ -38,7 +38,7 @@ const ProductList = () => {
     }}>
       <h3 style={{ color: '#646cff' }}>Desafío 5: Lista de Productos Filtrable 🛒</h3>
       
-      {/* Controles de Filtros */}
+      
       <div style={{ 
         display: 'flex', 
         justifyContent: 'center', 
@@ -75,14 +75,14 @@ const ProductList = () => {
         </div>
       </div>
 
-      {/* Renderizado de la lista */}
+      
       {productosFiltrados.length === 0 ? (
-        // (d) Mostrar "No hay productos" si los filtros no devuelven nada
+        
         <p style={{ textAlign: 'center', color: '#ff4655', fontWeight: 'bold', fontSize: '18px', margin: '40px 0' }}>
           ❌ No hay productos que coincidan con la búsqueda.
         </p>
       ) : (
-        // (a) Renderizar usando .map() y asignando la key única
+        
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
           {productosFiltrados.map(producto => (
             <Card 
@@ -92,7 +92,7 @@ const ProductList = () => {
               imagen={producto.imagen} 
               precio={producto.precio}
             >
-              {/* Le metemos una etiqueta de stock customizada dentro de la tarjeta */}
+              
               <span style={{ 
                 backgroundColor: producto.enStock ? '#4caf50' : '#ff4655', 
                 color: '#fff', 
