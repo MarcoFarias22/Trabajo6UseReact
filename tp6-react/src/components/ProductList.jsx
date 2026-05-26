@@ -4,12 +4,12 @@ import Card from './Card.jsx';
 const ProductList = () => {
  
   const productosIniciales = [
-    { id: 1, nombre: "Placa de Video RTX", precio: 350000, categoria: "Electrónica", enStock: true, imagen: "https://picsum.photos/id/1/300/200" },
-    { id: 2, nombre: "Monitor 24' 144Hz", precio: 180000, categoria: "Electrónica", enStock: false, imagen: "https://picsum.photos/id/3/300/200" },
-    { id: 3, nombre: "Remera de Algodón", precio: 15000, categoria: "Ropa", enStock: true, imagen: "https://picsum.photos/id/20/300/200" },
-    { id: 4, nombre: "Campera de Abrigo", precio: 45000, categoria: "Ropa", enStock: true, imagen: "https://picsum.photos/id/15/300/200" },
-    { id: 5, nombre: "Cafetera Express", precio: 95000, categoria: "Hogar", enStock: false, imagen: "https://picsum.photos/id/30/300/200" },
-    { id: 6, nombre: "Licuadora Pro", precio: 38000, categoria: "Hogar", enStock: true, imagen: "https://picsum.photos/id/42/300/200" }
+    { id: 1, nombre: "Placa de Video RTX", precio: 350000, categoria: "Electrónica", enStock: true, imagen: "https://imgs.search.brave.com/F886ZFwZiTUFMU1j0BswD40n1IXyzAp4vKTETInyisg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/Xzg1MTY4OC1NTEE5/OTUyNDYwMjM0NF8x/MjIwMjUtRS53ZWJw" },
+    { id: 2, nombre: "Monitor 24' 144Hz", precio: 180000, categoria: "Electrónica", enStock: false, imagen: "https://imgs.search.brave.com/rW8TBxIuunWmtbjI_52zfDF5qhJmwLMTddd5GC_IWqs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFKVzRWV3lISEwu/anBn" },
+    { id: 3, nombre: "Remera de Algodón", precio: 15000, categoria: "Ropa", enStock: true, imagen: "https://imgs.search.brave.com/GDffOJOyvV_Tgfj_ny5zWru9DG2ZJc9EV1nn3ctIogk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hY2Ru/LXVzLm1pdGllbmRh/bnViZS5jb20vc3Rv/cmVzLzAwMS8xNTAv/MTY5L3Byb2R1Y3Rz/LzU1NzA0NjE3XzEy/NjA2MzgyNzQwOTQ5/MzJfNjY0MTA2MDUw/MTAzMzg0NDczNl9u/LTRlNjBhMTQ2MTY4/OTdhNjgwYTE1ODcz/MjQwODc5NTU5LTI0/MC0wLmpwZw" },
+    { id: 4, nombre: "Campera de Abrigo", precio: 45000, categoria: "Ropa", enStock: true, imagen: "https://imgs.search.brave.com/8xGcaHdmMlcqxSgA_UPM17U6PWuKi8GSeHTZU7xq1NY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hY2Ru/LXVzLm1pdGllbmRh/bnViZS5jb20vc3Rv/cmVzLzAwMS8yMDEv/NDQzL3Byb2R1Y3Rz/LzJlNDZmYjExLTdk/ODctNDM2Ny1hNjM4/LTk1MWQ0MGJiY2U5/Ni05MjViMmMxNjdj/NjYwYzlmNGExNzI3/NzEwODA4MTcwNi00/ODAtMC53ZWJw" },
+    { id: 5, nombre: "Cafetera Express", precio: 95000, categoria: "Hogar", enStock: false, imagen: "https://imgs.search.brave.com/HM5LWU8Omtz806X31px04sGb0FWsRUgRUWsr8aNvYeI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9RX05QXzJY/Xzk0MzA3Ni1NTFU3/NzczODA0MDE4NV8w/NzIwMjQtVi53ZWJw" },
+    { id: 6, nombre: "Licuadora Pro", precio: 38000, categoria: "Hogar", enStock: true, imagen: "https://imgs.search.brave.com/w7RxZAPI7xiG5Id3bbCM-Z9DNLkgKri3hBziakjnTHM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF83/NjU3MTktTUxBODcz/MDQyMzY1MzZfMDcy/MDI1LU8ud2VicA" }
   ];
 
   
