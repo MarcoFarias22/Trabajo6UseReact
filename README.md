@@ -20,4 +20,4 @@ Este proyecto es una aplicación web interactiva desarrollada con **React.js** y
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/MarcoFarias22/Trabajo6UseReact
+   git clone https://github.com/MarcoFarias22/Trabajo6UseReact 
