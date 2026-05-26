@@ -13,8 +13,8 @@ function App() {
       <Header />
       
       <main style={{ padding: '20px', minHeight: '60vh', fontFamily: 'sans-serif', textAlign: 'center' }}>
-        <h2>¡Nuestras Tarjetas Reutilizables! 🎴</h2>
-        <p>Mostrando el mismo componente con diferentes propiedades (Props).</p>
+        <h2>¡Ofertas de Invierno! 🎴</h2>
+        <p>Productos en oferta por tiempo limitado.</p>
         
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
           <Card titulo="Mouse Gamer" descripcion="Mouse RGB con sensor óptico." imagen="https://picsum.photos/id/10/300/200" precio={4500} />
@@ -36,7 +36,6 @@ function App() {
 
         <hr style={{ margin: '40px 0', border: '0', borderTop: '1px solid #444' }} />
         
-        {/* RENDERIZAMOS LA APLICACIÓN DE TAREAS COMPLETA ACÁ */}
         <TodoApp />
 
       </main>
