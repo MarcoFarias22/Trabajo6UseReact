@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 
 const ContactForm = () => {
-  // (a) Campos controlados con useState
   const [nombre, setNombre] = useState('');
   const [email, setEmail] = useState('');
   const [mensaje, setMensaje] = useState('');
 
-  // (b) onSubmit con e.preventDefault() que muestra los datos en consola
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('--- Formulario Enviado ---');
@@ -14,7 +12,6 @@ const ContactForm = () => {
     alert(`¡Gracias por tu mensaje, ${nombre}! Datos enviados a la consola.`);
   };
 
-  // (d) Validación básica: botón deshabilitado si algún campo está vacío
   const botonDeshabilitado = nombre.trim() === '' || email.trim() === '' || mensaje.trim() === '';
 
   return (
@@ -28,7 +25,7 @@ const ContactForm = () => {
       textAlign: 'left',
       color: '#fff'
     }}>
-      <h3 style={{ textAlign: 'center', color: '#646cff' }}>Desafío 4: Formulario de Contacto ✉️</h3>
+      <h3 style={{ textAlign: 'center', color: '#646cff' }}>Formulario de Contacto ✉️</h3>
       
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
         <div>
@@ -80,7 +77,6 @@ const ContactForm = () => {
         </button>
       </form>
 
-      {/* (c) Preview en vivo debajo del formulario */}
       <div style={{
         marginTop: '25px',
         padding: '12px',
